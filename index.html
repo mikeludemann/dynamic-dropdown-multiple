@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Dynamic Dropdown Multiple</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="./src/script/libs/jquery.js"></script>
+    <script src="./src/script/script.js"></script>
+    <link rel="stylesheet" href="./src/style/styles.css">
+	</head>
+	<body>
+		<select id="level">
+			<option value="00" selected><b>Default</b></option>
+			<option value="Primary">Primary</option>
+			<option value="Secondary">Secondary</option>
+			<option value="Primary and Secondary">Primary and Secondary</option>
+		</select>
+		<select id="type">
+			<option value="000" selected><b>Default</b></option>
+			<option value="King">King</option>
+			<option value="Queen">Queen</option>
+			<option value="Prince">Prince</option>
+		</select>
+		<div class="context">
+			<p>Primary</p>
+			<p>King</p>
+		</div>
+		<div class="context">
+			<p>Secondary</p>
+			<p>Prince</p>
+		</div>
+		<div class="context">
+			<p>Primary and Secondary</p>
+			<p>King</p>
+			<p>Hello</p>
+		</div>
+		<div class="context">
+			<p>Primary</p>
+			<p>Queen</p>
+		</div>
+	</body>
+</html>
